@@ -1,0 +1,9 @@
+build
+node_modules
+static
+logs
+.cache-loader
+
+.DS_Store
+npm-debug.log
+.vscode

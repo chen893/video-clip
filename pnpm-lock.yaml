@@ -1,0 +1,32 @@
+lockfileVersion: 5.4
+
+specifiers:
+  fluent-ffmpeg: ^2.1.2
+
+dependencies:
+  fluent-ffmpeg: 2.1.2
+
+packages:
+
+  /async/3.2.4:
+    resolution: {integrity: sha1-LSLgD4zd61/eXdM1IrVtHPVpqBw=, tarball: async/download/async-3.2.4.tgz}
+    dev: false
+
+  /fluent-ffmpeg/2.1.2:
+    resolution: {integrity: sha1-yVLeIkD4EuvaCqgAbXd27irPfXQ=, tarball: fluent-ffmpeg/download/fluent-ffmpeg-2.1.2.tgz}
+    engines: {node: '>=0.8.0'}
+    dependencies:
+      async: 3.2.4
+      which: 1.3.1
+    dev: false
+
+  /isexe/2.0.0:
+    resolution: {integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=, tarball: isexe/download/isexe-2.0.0.tgz}
+    dev: false
+
+  /which/1.3.1:
+    resolution: {integrity: sha1-pFBD1U9YBTFtqNYvn1CRjT2nCwo=, tarball: which/download/which-1.3.1.tgz}
+    hasBin: true
+    dependencies:
+      isexe: 2.0.0
+    dev: false
